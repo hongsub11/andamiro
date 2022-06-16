@@ -1,0 +1,263 @@
+@charset "utf-8";
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-size: 20px;
+    font-family: "nanumsquare";
+    line-height: 24px;
+    color: #000;
+    min-width: 1350px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+h3{
+    padding-bottom: 20px;
+    color: #07310c;
+}
+
+/*header*/
+#header{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#header_inner{
+    width: 1320px;
+    margin: 0 auto;
+}
+#header_inner .logo{
+    padding-top: 20px;
+    float: left;
+}
+#header_inner ul li{
+    float: left;
+    padding-left: 157px;
+}
+.gnb li{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 28px;
+    color: #353434;
+}
+
+/*main_banner*/
+#main_banner{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+#main_banner .main_banner{
+    width: 100%;
+    display: block;
+}
+.t1{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    margin-left: -214px;
+}
+.t2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -274.5px;
+}
+.top{
+    position:fixed; 
+    bottom:50px; 
+    right:50px; 
+    display:none;
+    z-index: 50;
+}
+
+/*best_item*/
+#best_item{
+    width: 935px;
+    margin: 0 auto;
+    text-align: center;
+}
+.c1{
+    padding-top: 200px;
+}
+#best_item ul li{
+    float: left;
+    padding: 15px 19px;
+}
+#best_item ul li img{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+#best_item ul li:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+#best_item p{
+    color: #353434;
+    font-size: 16px;
+    padding-top: 20px;
+}
+#best_item span{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+#best_item h5{
+    color: #ff0000;
+    display: inline;
+}
+
+/*andamiro*/
+#andamiro{
+    width: 100%;
+    margin: 0 auto;
+}
+#andamiro img{
+    padding-top: 240px;
+    width: 100%;
+    display: block;
+}
+
+/*SUBSCRIBE*/
+#subscribe{
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+.c2{
+    padding-top: 200px;
+}
+#subscribe h3{
+    padding-bottom: 50px;
+}
+#package img{
+    overflow: hidden;
+    margin: 20px;
+}
+#package img:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+/*goods*/
+#goods{
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+.c3{
+    padding-top: 170px;
+}
+#goods h3{
+    padding-bottom: 51px;
+}
+#goods ul li{
+    float: left;
+}
+.a_img{
+    margin: 22px;
+}
+#goods_img p{
+    font-size: 17px;
+    font-weight: bold;
+    color: #353434;
+}
+#goods_img span{
+    color: #5a703a;
+    font-size: 17px;
+    font-weight: bold;
+}
+#goods ul li .sold{
+    width: 96px;
+}
+#goods ul li .a_img{
+    width: 395px;
+}
+#goods ul li:hover .a_img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/*swiper*/
+.swiper{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.c4{
+    padding-top: 170px;
+}
+.swiper h3{
+    padding-bottom: 80px;
+}
+.swiper-pagination2{
+    display: none;
+}
+.mySwiper2 .swiper-slide img{
+    max-width: 100%;
+}
+
+
+/*footer*/
+#footer{
+    background-color: #e6e6e6;
+    margin-top: 230px;
+}
+#footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+    height: 280px;
+    position: relative;
+}
+.footer_img{
+    float: left;
+    position: absolute;
+    left: -4%;
+    top: 22%;
+    width: 14%;
+}
+#footer_inner ul li{
+    float: left;
+    padding-right: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer_inner .logo_left{
+    position: absolute;
+    top: 21%;
+    left: 14.5%;
+}
+#footer_inner .logo_right{
+    position: absolute;
+    top: 20%;
+    right: 7%;
+}
+.text1{
+    font-size: 17px;
+    position: absolute;
+    left: 14.4%;
+    top: 35%;
+}
+.text2{
+    font-size: 17px;
+    position: absolute;
+    left: 14.4%;
+    bottom: 10%;
+}
