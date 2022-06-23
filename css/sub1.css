@@ -58,6 +58,10 @@ h3{
     padding: 28px;
     color: #353434;
 }
+.gnb li a:hover{
+    color: #718e62;
+    transition: all 0.5s;
+}
 
 /*main_banner*/
 #main_banner{
