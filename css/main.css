@@ -17,7 +17,7 @@ body{
     font-family: "nanumsquare";
     line-height: 24px;
     color: #000;
-    min-width: 1350px;
+    min-width: 1450px;
 }
 .clearfix::after{
     content: "";
